@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Title </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Конвертер валют</h1>
+        <input type="number" id="amount" placeholder="Введите сумму" />
+
+        <div class="currencies">
+            <label><input type="checkbox" value="USD">  USD</label>
+            <label><input type="checkbox" value="EUR">  EUR</label>
+            <label><input type="checkbox" value="RUB">  RUB</label>
+        </div>
+
+        <button id="convertBtn">Конвертировать</button>
+
+        <div id="resultContainer"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
